@@ -1,0 +1,94 @@
+body {
+  background-color: #3b4139;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.78'%3E%3Ccircle fill='%233B4139' cx='50' cy='0' r='50'/%3E%3Cg fill='%233c433a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233e443c' cx='50' cy='100' r='50'/%3E%3Cg fill='%233f463d' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2341473e' cx='50' cy='200' r='50'/%3E%3Cg fill='%23424940' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23444b41' cx='50' cy='300' r='50'/%3E%3Cg fill='%23454c43' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23464e44' cx='50' cy='400' r='50'/%3E%3Cg fill='%23485045' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23495147' cx='50' cy='500' r='50'/%3E%3Cg fill='%234b5348' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%234c554a' cx='50' cy='600' r='50'/%3E%3Cg fill='%234e564b' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%234f584c' cx='50' cy='700' r='50'/%3E%3Cg fill='%23515a4e' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23525b4f' cx='50' cy='800' r='50'/%3E%3Cg fill='%23545d51' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23555f52' cx='50' cy='900' r='50'/%3E%3Cg fill='%23576054' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23586255' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #d4d9d3;
+  margin: 0;
+  height: 100vh;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: #3b4139;
+  padding: 2rem;
+  border: 2px solid #71867b;
+  border-radius: 25px;
+  height: auto;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form .login-div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form .login-div label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+form .login-div input {
+  font-size: 1.2rem;
+  background-color: #3b4139;
+  color: #d4d9d3;
+  border: 2px solid #71867b;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+form .reg-div {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+form .reg-div a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #d4d9d3;
+}
+
+form .naslov-div {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+form .login-button-div button {
+  background-color: #3b4139;
+  color: #d4d9d3;
+  border: 2px solid #71867b;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 100%;
+  transition: 0.2s;
+}
+
+form .login-button-div button:hover {
+  background-color: #586255;
+  cursor: pointer;
+}

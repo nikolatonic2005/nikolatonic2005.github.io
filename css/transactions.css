@@ -1,0 +1,240 @@
+body {
+  background-color: #3b4139;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.78'%3E%3Ccircle fill='%233B4139' cx='50' cy='0' r='50'/%3E%3Cg fill='%233c433a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233e443c' cx='50' cy='100' r='50'/%3E%3Cg fill='%233f463d' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2341473e' cx='50' cy='200' r='50'/%3E%3Cg fill='%23424940' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23444b41' cx='50' cy='300' r='50'/%3E%3Cg fill='%23454c43' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23464e44' cx='50' cy='400' r='50'/%3E%3Cg fill='%23485045' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23495147' cx='50' cy='500' r='50'/%3E%3Cg fill='%234b5348' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%234c554a' cx='50' cy='600' r='50'/%3E%3Cg fill='%234e564b' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%234f584c' cx='50' cy='700' r='50'/%3E%3Cg fill='%23515a4e' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23525b4f' cx='50' cy='800' r='50'/%3E%3Cg fill='%23545d51' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23555f52' cx='50' cy='900' r='50'/%3E%3Cg fill='%23576054' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23586255' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #d4d9d3;
+  margin: 0;
+  height: 100vh;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.about-div {
+  margin-top: 4rem;
+}
+.begin-div {
+  background-color: #3b4139;
+  padding: 2rem;
+  border: 2px solid #71867b;
+  border-radius: 25px;
+  height: auto;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-div {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.log-sign-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.log-sign-div a {
+  padding: 0.5rem;
+  border: 2px solid #71867b;
+  border-radius: 15px;
+  background-color: #3b4139;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  color: #d4d9d3;
+  width: 40%;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.log-sign-div a:hover {
+  background-color: #586255;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: separate;
+  width: auto;
+  text-align: center;
+  font-size: 20px;
+  background-color: #3b4139;
+  border: 2px solid #71867b;
+  border-radius: 25px;
+  height: auto;
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #272c26;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+}
+
+.naslov {
+  font-size: 35px;
+  color: #d4d9d3;
+  transform: translate(3%, 9%);
+}
+
+.naslov a {
+  color: #d4d9d3;
+  text-decoration: none;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav a {
+  background-color: inherit;
+  float: left;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+  color: #d4d9d3;
+  margin-right: 15px;
+  transform: translate(0%, 20%);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #4e574c;
+}
+
+.nav a:active {
+  background-color: #3a4139;
+}
+
+.greeting {
+  margin: 3rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pregled {
+  background-color: #3b4139;
+  padding: 2rem;
+  border: 2px solid #71867b;
+  border-radius: 25px;
+  width: 25%;
+}
+
+.pregled h2 {
+  margin: 0%;
+}
+
+.racun {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#transactions {
+  background-color: #4e574c;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+form .login-div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form .login-div label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+form .login-div input {
+  font-size: 1.2rem;
+  background-color: #3b4139;
+  color: #d4d9d3;
+  border: 2px solid #71867b;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+form .login-button-div button {
+  background-color: #3b4139;
+  color: #d4d9d3;
+  border: 2px solid #71867b;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 100%;
+  transition: 0.2s;
+}
+
+form .login-button-div button:hover {
+  background-color: #586255;
+  cursor: pointer;
+}
+
+#change {
+  background-color: #6db1bf;
+  padding: 10px;
+  padding-bottom: 7px;
+  border: 0;
+  border-radius: 5px;
+}
+
+#delete {
+  background-color: #f39a9d;
+  padding: 10px;
+  padding-bottom: 7px;
+  border: 0;
+  border-radius: 5px;
+}
+
+#new {
+  background-color: #6db1bf;
+  padding: 10px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border: 0;
+  border-radius: 7px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#more {
+  background-color: #6db1bf;
+  padding: 10px;
+  border: 0;
+  border-radius: 7px;
+}
